@@ -3,7 +3,7 @@ styles for my resume
 */
 
 /*
-all text in resume
+baseline resume style (font, size, color, boldness)
 */
 BODY {
     font-family:"Open Sans", arial, sans-serif;
@@ -13,7 +13,7 @@ BODY {
 }
 
 /*
-name
+name banner
 */
 h1 {
     font-size:3em;
