@@ -2,6 +2,9 @@
 styles for my resume
 */
 
+/*
+all text in resume
+*/
 BODY {
     font-family:"Open Sans", arial, sans-serif;
     font-size:1em;
@@ -9,6 +12,9 @@ BODY {
     font-weight:400;
 }
 
+/*
+name
+*/
 h1 {
     font-size:3em;
     color:#33485e;
@@ -16,12 +22,18 @@ h1 {
     text-align:center;
 }
 
+/*
+title
+*/
 strong {
     font-size:1.5em;
     color:#33485e;
     text-transform:uppercase;
 }
 
+/*
+section titles: experience, education & skills
+*/
 h2 {
     font-size:1.5em;
     color:white;
@@ -29,20 +41,32 @@ h2 {
     text-transform:uppercase;
 }
 
+/*
+job titles
+*/
 h3 {
     font-size:1.5em;
     font-weight:600;
 }
 
+/*
+job organizations
+*/
 h4 {
     font-size:1.5em
 }
 
+/*
+job dates
+*/
 h5 {
     font-size:1em;
     font-style:italic;
 }
 
+/*
+lists of contact info, education, skills
+*/
 ul {
     font-size:1em;
 }
