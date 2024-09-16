@@ -1,26 +1,26 @@
 BODY {
-    font-family: "Open Sans", arial, sans-serif;
-    font-size: 1em;
-    color: #444;
-    font-weight: 400;
+    font-family:"Open Sans", arial, sans-serif;
+    font-size:1em;
+    color:#444;
+    font-weight:400;
 }
 
 h1 {
-    font-size: 3em;
-    color: #33485e;
-    text-transform: uppercase;
-    text-align: center;
+    font-size:3em;
+    color:#33485e;
+    text-transform:uppercase;
+    text-align:center;
 }
 
 strong {
-    font-size: 1.5em;
-    color: #33485e;
-    text-transform: uppercase;
+    font-size:1.5em;
+    color:#33485e;
+    text-transform:uppercase;
 }
 
 h2 {
     font-size:1.5em;
     color:white;
-    background-color: #33485e;
-    text-transform: uppercase;
+    background-color:#33485e;
+    text-transform:uppercase;
 }
