@@ -55,6 +55,7 @@ job organizations
 */
 h4 {
     font-size:1.5em
+    font-weight: 400;
 }
 
 /*
@@ -63,6 +64,7 @@ job dates
 h5 {
     font-size:1em;
     font-style:italic;
+    font-weight: 400;
 }
 
 /*
@@ -70,4 +72,5 @@ lists of contact info, education, skills
 */
 ul {
     font-size:1em;
+    font-weight: 400;
 }
