@@ -78,7 +78,7 @@ section titles: experience, education & skills
     font-weight: 400;
     margin: 20px 0 10px 0;
     width: 70%;
-    max-width: 300px;
+    min-width: 300px;
 }
 
 /*
