@@ -63,14 +63,14 @@ job titles
 */
 .jobtitles {
     font-size:1.5em;
-    font-weight:600;
+    font-weight: 600;
 }
 
 /*
 job organizations
 */
 .organization {
-    font-size:1.25em
+    font-size:1.25em;
     font-weight: 400;
 }
 
