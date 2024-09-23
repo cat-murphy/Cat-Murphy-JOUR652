@@ -106,6 +106,17 @@ job description
     margin-right:0;
 }
 
+/*
+lists of contact info, education, skills
+*/
+ul {
+    font-size:1em;
+    font-weight:400;
+}
+
+/*
+education list
+*/
 .degrees {
     margin-top: 5px;
     margin-bottom: 0;
@@ -113,17 +124,12 @@ job description
     margin-right: 0;
 }
 
+/*
+skills list
+*/
 .do {
     margin-top: 5px;
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-}
-
-/*
-lists of contact info, education, skills
-*/
-ul {
-    font-size:1em;
-    font-weight:400;
 }
