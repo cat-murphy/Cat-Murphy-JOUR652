@@ -55,6 +55,9 @@ contact info menu
     text-align:center;
 }
 
+/* 
+contact menu content
+*/
 .menu li {
     display: inline;
 }
@@ -138,4 +141,10 @@ skills list
     margin-bottom:0;
     margin-left:0;
     margin-right:0;
+}
+
+.top {
+    width:60%;
+    min-width:300px;
+    margin:0 auto 30px;
 }
