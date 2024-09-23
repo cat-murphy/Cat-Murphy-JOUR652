@@ -44,10 +44,7 @@ section titles: experience, education & skills
     background-color:#33485e;
     text-transform:uppercase;
     font-weight: 400;
-    margin-top:20px;
-    margin-bottom: 10px;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 20px 0 10px 0;
     width: 70%;
     max-width: 300px;
 }
@@ -55,7 +52,7 @@ section titles: experience, education & skills
 /*
 job titles
 */
-h3 {
+.jobtitles {
     font-size:1.5em;
     font-weight:600;
 }
@@ -63,18 +60,23 @@ h3 {
 /*
 job organizations
 */
-h4 {
-    font-size:1.5em
+.organization {
+    font-size:1.25em
     font-weight: 400;
 }
 
 /*
 job dates
 */
-h5 {
+.date {
     font-size:1em;
     font-style:italic;
     font-weight: 400;
+    margin-top: 2px 0 0 0;
+}
+
+.description {
+    margin: 10px 0 0 0;
 }
 
 /*
