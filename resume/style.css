@@ -66,9 +66,9 @@ section titles: experience, education & skills
 /*
 job titles
 */
-.jobtitles {
+.jobtitle {
     font-size:1.5em;
-    font-weight:600px;
+    font-weight:600;
 }
 
 /*
@@ -76,7 +76,7 @@ job organizations
 */
 .organization {
     font-size:1.25em;
-    font-weight:400px;
+    font-weight:400;
 }
 
 /*
