@@ -38,12 +38,15 @@ strong {
 /*
 section titles: experience, education & skills
 */
-h2 {
+.sectionheader {
     font-size:1.5em;
     color:white;
     background-color:#33485e;
     text-transform:uppercase;
     font-weight: 400;
+    margin: 20px 10px 0;
+    width: 70%;
+    max-width: 300px;
 }
 
 /*
