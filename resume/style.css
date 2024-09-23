@@ -5,7 +5,7 @@ styles for my resume
 /*
 baseline resume style (font, size, color, boldness)
 */
-BODY {
+body {
     font-family:"Open Sans", arial, sans-serif;
     font-size:1em;
     color:#444;
@@ -33,6 +33,15 @@ strong {
     font-size:1.5em;
     color:#33485e;
     text-transform:uppercase;
+}
+
+/* 
+contact info
+*/
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align:center;
 }
 
 /*
@@ -75,6 +84,9 @@ job dates
     margin-top: 2px 0 0 0;
 }
 
+/*
+job description
+*/
 .description {
     margin: 10px 0 0 0;
 }
