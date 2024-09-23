@@ -15,7 +15,7 @@ BODY {
 /*
 name banner
 */
-h1 {
+#name {
     font-size:3em;
     color:#33485e;
     text-transform:uppercase;
