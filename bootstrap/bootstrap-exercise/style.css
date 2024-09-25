@@ -1,13 +1,21 @@
 
 
-.display-5 {
-    font-family: 'Courier New', Courier, monospace;
+h1 [
+    font-family: "Special Elite"; "Courier New", Courier, monospace;
+]
+
+h2 {
+    font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
-.d-grid {
-    font-family:'Courier New', Courier, monospace;
+h3 {
+    font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
 .navbar-brand {
-    font-family:'Courier New', Courier, monospace;
+    font-family: "Special Elite"; "Courier New", Courier, monospace;
+}
+
+.btn {
+    font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
