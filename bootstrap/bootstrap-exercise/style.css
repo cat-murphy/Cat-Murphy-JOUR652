@@ -20,6 +20,10 @@ h3 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
+.hero_img {
+    padding-bottom: 25px;
+}
+
 .mid_col {
     display:inline;
     text-align:center;
