@@ -16,22 +16,22 @@ h3 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
+.bottom_col {
+    display:inline;
+    text-align:center;
+    margin: 0 auto;
+}
+
+.top_btn {
+    font-family: "Special Elite"; "Courier New", Courier, monospace;
+}
+
 .mid_btn {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
     margin: 0 auto;
 }
 
-.bottom_col {
-    display:inline;
-    text-align:center;
-    margin: 0 auto;
-  }
-
 .mid_img {
     width: 100%;
     max-width: 500px;
-}
-
-.top_btn {
-    font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
