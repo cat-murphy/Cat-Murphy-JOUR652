@@ -23,4 +23,5 @@ h3 {
 .col-md-6 {
     display:inline;
     text-align:center;
+    margin: 0 auto;
   }
