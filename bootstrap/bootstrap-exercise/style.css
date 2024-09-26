@@ -19,3 +19,7 @@ h3 {
 .d-grid {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
+
+.col-md-6 {
+    text-align: center;
+  }
