@@ -16,18 +16,18 @@ h3 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
-.bottom_btn {
+.mid_btn {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
     margin: 0 auto;
 }
 
-.col-lg-6 {
+.mid_col {
     display:inline;
     text-align:center;
     margin: 0 auto;
   }
 
-.bottom_img {
+.mid_img {
     width: 100%;
     max-width: 500px;
 }
