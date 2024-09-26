@@ -16,14 +16,14 @@ h3 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
-.bottom_col {
+.top_btn {
+    font-family: "Special Elite"; "Courier New", Courier, monospace;
+}
+
+.mid_col {
     display:inline;
     text-align:center;
     margin: 0 auto;
-}
-
-.top_btn {
-    font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
 .mid_btn {
