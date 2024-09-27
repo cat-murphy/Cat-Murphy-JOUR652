@@ -67,10 +67,3 @@ h3 {
         background-color: #008080;
     }
   }
-
-/* for screens above 500px */
-@media only screen and (min-width: 500px) {
-    .mid_btn {
-        padding-top:50px;
-    }
-}
