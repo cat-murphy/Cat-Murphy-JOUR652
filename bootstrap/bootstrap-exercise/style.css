@@ -1,16 +1,19 @@
 
-
+/* hero headline */
 h1 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
+/* mid columns headlines */
 h2 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
+/* bottom columns headlines */
 h3 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
+
 
 .row {
     padding-bottom:50px;
