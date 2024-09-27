@@ -38,6 +38,7 @@ h3 {
 /* read now buttons in middle columns */
 .mid_btn {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
+    padding-bottom: 50px;
 }
 
 /* images in middle columns */
