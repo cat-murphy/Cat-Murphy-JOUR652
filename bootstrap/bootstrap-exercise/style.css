@@ -12,6 +12,10 @@ h3 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
+.row {
+    padding-botton:50px;
+}
+
 .navbar-brand {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
