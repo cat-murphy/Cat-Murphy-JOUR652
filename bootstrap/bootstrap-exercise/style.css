@@ -24,10 +24,15 @@ h3 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
-/* read now button in hero */
+button {
+    font-family: "Special Elite"; "Courier New", Courier, monospace;
+}
+
+/* read now button in hero
 .top_btn {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
+/* read now buttons in middle columns */
 
 /* middle columns */
 .mid_col {
@@ -35,10 +40,11 @@ h3 {
     margin:auto;
 }
 
-/* read now buttons in middle columns */
+/* read now buttons in middle columns
 .mid_btn {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
+/* read now buttons in middle columns */
 
 /* images in middle columns */
 .mid_img {
