@@ -65,7 +65,12 @@ h3 {
     h2 {
         padding-top:50px;
     }
-    button {
-        background-color: #008080;
+
+    .top_btn  {
+        color: #008080; 
+    }
+    
+    .mid_btn {
+        color: #008080;
     }
   }
