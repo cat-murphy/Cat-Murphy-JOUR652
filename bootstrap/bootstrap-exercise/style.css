@@ -14,39 +14,46 @@ h3 {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
-
+/* row padding */
 .row {
     padding-bottom:50px;
 }
 
+/* skate! newsletter branding in navbar */
 .navbar-brand {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
+/* read now button in hero */
 .top_btn {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
+/* middle columns */
 .mid_col {
     text-align:center;
     margin:auto;
 }
 
+/* read now buttons in middle columns */
 .mid_btn {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
     margin: 0 auto;
 }
 
+/* images in middle columns */
 .mid_img {
     width: 100%;
     max-width: 500px;
 }
 
+/* bottom columns */
 .bottom_col {
     text-align:center;
     margin:auto;
 }
 
+/* icons */
 .bi {
     font-size:3em;
 }
