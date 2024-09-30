@@ -61,11 +61,11 @@ h3 {
 
 /* for screens below 500px */
 @media only screen and (max-width: 500px) {
-    .btn {
+    (.btn {
         background-color: #008080; 
-    }
+    })
     
-    h2 {
+    (h2 {
         padding-top:50px;
-    }
+    })
   }
