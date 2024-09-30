@@ -26,7 +26,7 @@ h3 {
 
 
 /* read now button in hero*/
-.buttons {
+.top_button {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
@@ -37,7 +37,7 @@ h3 {
 }
 
 /* read now buttons in middle columns */
-.mid_btn {
+.mid_button {
     font-family: "Special Elite"; "Courier New", Courier, monospace;
 }
 
@@ -65,7 +65,7 @@ h3 {
         padding-top:50px;
     }
 
-    button {
+    .btn {
         background-color: #008080; 
     }
   }
