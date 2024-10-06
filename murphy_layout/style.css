@@ -1,9 +1,66 @@
 
 .content {
     margin:0 auto;
-    width:900px;
+    max-width:900px;
 }
 
-.my-5 {
-    margin-top:0;
+.jumbotron {
+    background-color: white;
 }
+
+.fs-4 {
+    color:white;
+    padding-left:25px;
+}
+
+.nav {
+    padding-right:25px;
+    padding-left:10px;
+}
+
+.nav-link {
+    color:white;
+    padding-right:25px;
+}
+
+.head-subhead {
+    text-align:left;
+    max-width:900px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+img {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.caption {
+    text-align:left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.row {
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* for screens above 768px */
+@media only screen and (min-width: 768px) {
+   .container-navbar {
+    position:sticky;
+    top:0;
+   }
+
+  }
