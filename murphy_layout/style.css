@@ -1,11 +1,19 @@
 
+body {
+    font-family: Georgia, serif;
+    font-size: 13px;
+    line-height:1.5;
+}
+
 .content {
     margin:0 auto;
     max-width:900px;
 }
 
-.jumbotron {
-    background-color: white;
+.container-navbar {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .fs-4 {
@@ -23,24 +31,44 @@
     padding-right:25px;
 }
 
+.col-lg-11 {
+    padding-left:10px;
+    padding-right:10px;
+}
+
 .head-subhead {
     text-align:left;
     max-width:900px;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 img {
-    padding-top:5px;
-    padding-bottom:5px;
+    padding-top:0px;
+    padding-bottom:0px;
     padding-left: 10px;
     padding-right: 10px;
 }
 
 .caption {
-    text-align:left;
+    padding-top:5px;
+    padding-bottom:0px;
     padding-left: 10px;
     padding-right: 10px;
+    text-align:left;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.headline {
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    padding-bottom: 15px;
+    padding-top:15px;
+}
+
+.subhead {
+    font-size: 15px;
 }
 
 #byline {
@@ -50,10 +78,32 @@ img {
 }
 
 .row {
-    padding-top:25px;
-    padding-bottom:25px;
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.blockquote {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top:20px;
+}
+
+.quote {
+    text-align: left;
+    font-size:30px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: italic;
+    color: cornflowerblue;
+}
+
+.quote-attribution {
+    text-align: right;
+    font-size:30px;
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: darkblue;
 }
 
 /* for screens above 768px */
@@ -63,4 +113,42 @@ img {
     top:0;
    }
 
-  }
+   body {
+    font-size: 20px;
+   }
+
+   .headline {
+    font-size: 40px;
+   }
+
+   .subhead {
+    font-size: 20px;
+   }
+
+   #byline {
+    font-size: 20px;
+   }
+
+   .blockquote {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+   }
+
+   .caption {
+    padding-bottom: 20px;
+   }
+
+   .quote {
+    font-size:45px;
+   }
+
+   .quote-attribution {
+    font-size:45px;
+   }
+
+   .row {
+    padding-bottom:30px;
+   }
+}
+
