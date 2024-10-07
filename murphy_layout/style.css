@@ -41,6 +41,10 @@ body {
     padding-right:10px;
 }
 
+.series-name {
+    text-transform:uppercase;
+}
+
 .head-subhead {
     text-align:left;
     max-width:900px;
@@ -81,6 +85,11 @@ img {
     font-family: Helvetica, sans-serif;
     font-size: 14px;
     font-style: italic;
+    color:black;
+}
+
+.byline-link {
+    color:black;
 }
 
 .row {
@@ -109,6 +118,38 @@ img {
     font-family: Georgia, serif;
     font-style: normal;
     color: darkblue;
+}
+
+.card-top {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:40px;
+    font-weight: bold;
+}
+
+.mt-0 {
+    color:black;
+}
+
+.card-desc {
+    color:black;
+    font-style:italic;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.card-byline {
+    color:black;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.w-100 {
+    margin-top: 15px;
+}
+
+.stretched-link {
+    color:black
 }
 
 /* for screens above 768px */
