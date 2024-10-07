@@ -10,6 +10,11 @@ body {
     max-width:900px;
 }
 
+.container {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
 .container-navbar {
     font-family: "Oranienbaum", serif;
     font-weight: 400;
@@ -43,6 +48,17 @@ body {
     padding-right:20px;
 }
 
+.headline {
+    font-family: Helvetica, sans-serif;
+    font-size: 35px;
+    padding-bottom: 15px;
+    padding-top:15px;
+}
+
+.subhead {
+    font-size: 15px;
+}
+
 img {
     padding-top:0px;
     padding-bottom:0px;
@@ -58,17 +74,7 @@ img {
     text-align:left;
     font-family: Helvetica, sans-serif;
     font-size: 13px;
-}
-
-.headline {
-    font-family: Helvetica, sans-serif;
-    font-size: 35px;
-    padding-bottom: 15px;
-    padding-top:15px;
-}
-
-.subhead {
-    font-size: 15px;
+    color:rgb(82, 82, 82);
 }
 
 #byline {
@@ -83,25 +89,24 @@ img {
 }
 
 .blockquote {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top:20px;
+    padding-top:30px;
+    padding-bottom:10px;
+    margin-top:15x;
+    margin-bottom:15px;
 }
 
 .quote {
+    font-family: Georgia, serif;
     text-align: left;
-    font-size:30px;
-    font-family: "Oranienbaum", serif;
-    font-weight: 400;
+    font-size:24px;
     font-style: italic;
     color: cornflowerblue;
 }
 
 .quote-attribution {
     text-align: right;
-    font-size:30px;
-    font-family: "Oranienbaum", serif;
-    font-weight: 400;
+    font-size:20px;
+    font-family: Georgia, serif;
     font-style: normal;
     color: darkblue;
 }
@@ -130,21 +135,28 @@ img {
    }
 
    .blockquote {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-   }
-
-   .caption {
-    padding-bottom: 20px;
+    max-width: 900px;
+    border-left: 4px solid darkblue;
+    padding-top:0;
+    padding-bottom:0;
+    margin-top:0;
+    margin-bottom:0;
    }
 
    .quote {
-    font-size:45px;
+    font-size:40px;
+    margin-top:0;
+    margin-bottom:0;
+    margin-left:50px;
    }
 
    .quote-attribution {
-    font-size:45px;
+    padding-top:20px;
+    font-size:36px;
+   }
+
+   .caption {
+    padding-bottom: 0px;
    }
 
    .row {
