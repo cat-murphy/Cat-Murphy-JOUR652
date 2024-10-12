@@ -125,6 +125,7 @@ img {
     text-transform: uppercase;
     margin-top:40px;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .mt-0 {
