@@ -35,7 +35,6 @@ Questions
 <html>
 
 <head>
-    <meta charset="UTF-8" />
     <title>Cat Murphy is a Rockstar</title>
 </head>
 
@@ -54,7 +53,7 @@ Questions
 
 5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
 
-** Text, images of <div> tags would be in the <body> section **
+** Text, images and <div> tags would be in the <body> section **
 
 6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
 
