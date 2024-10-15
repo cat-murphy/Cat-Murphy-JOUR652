@@ -39,8 +39,7 @@ Questions
 </head>
 
 <body>
-    <h1>content</h1>
-    <p>blah blah blah</p>
+    (this would be where <div>, <h1>, <p>, etc. tags would go)
 </body>
 
 </html>
@@ -59,25 +58,15 @@ Questions
 
 **
 
-<div class="graphicbox">
-    <p>content</p>
-</div>
+<div class="graphicbox"></div>
 
-<div id="name">
-    <p>content</p>
-</div>
+<div id="name"></div>
 
 **
 
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
-**
-
-<div id="apples" class="fruit">
-    <p>content</p>
-</div>
-
-**
+** <div id="apples" class="fruit"></div> **
 
 8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
 
