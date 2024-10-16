@@ -1,0 +1,161 @@
+
+.container-navbar {
+    font-family: "Oranienbaum", serif;
+    position: sticky;
+    top:0;
+}
+
+.nav {
+    padding-right:25px;
+    padding-left:10px;
+}
+
+.nav-link {
+    color:white;
+    padding-right:25px;
+}
+
+.nav-item {
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+.fs-1 {
+    color:white;
+    padding-left:25px;
+    font-style: italic;
+}
+
+.page-wrapper {
+    align-items: center;
+}
+
+#headline {
+    font-family: "Oranienbaum", serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+#primary-subhead {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#byline {
+    font-family: "Oranienbaum", serif;
+    font-weight: bold;
+    font-style:italic;
+    padding-top:5px;
+    font-size: 1em;
+}
+
+#publication-date {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-top:5px;
+    padding-bottom:20px;
+    font-size: 1em;
+}
+
+
+.body-copy {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    line-height:1.5;
+    text-align: left;
+}
+
+.body-subhead {
+    font-family: "Oranienbaum", serif;
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.caption {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-size: .75em;
+    padding-top:5px;
+    padding-bottom:0px;
+    text-align:left;
+    color: gray;
+}
+
+.pull-quote {
+    text-align: center;
+    padding-top:10px;
+    padding-bottom: 25px;
+    color:gray;
+}
+
+blockquote {
+    font-family: "Oranienbaum", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+    font-style: italic;
+    text-align: center;
+}
+
+.bi {
+    font-size: 3.5em;
+}
+
+#playlist {
+    padding-top:10px;
+    padding-bottom: 25px;
+}
+
+.related-items{
+    font-family: "Oranienbaum", serif;
+    padding-bottom: 25px;
+}
+
+.card-top {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top:40px;
+    font-weight: bold;
+    text-decoration: underline;
+    color:white;
+}
+
+.mt-0 {
+    color:white;
+}
+
+.card-desc {
+    color:white;
+    font-style:italic;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.card-byline {
+    color:white;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+.w-100 {
+    margin-top: 15px;
+}
+
+.stretched-link {
+    color:white;
+}
