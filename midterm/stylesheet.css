@@ -148,12 +148,11 @@ blockquote {
 
 .card-byline {
     color:white;
-    font-weight:bold;
     text-transform: uppercase;
 }
 
 .w-100 {
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .stretched-link {
