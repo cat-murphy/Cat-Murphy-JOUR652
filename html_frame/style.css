@@ -1,0 +1,135 @@
+
+/* masthead */
+.masthead {
+    border-bottom: 1px solid lightgray;
+    display:inline;
+}
+
+
+
+/* navbar */
+.navbar-brand {
+    font-size: 2em;
+    text-align:center;
+    font-family: "PT Serif", serif;
+    font-style: italic;
+    padding:15px;
+}
+
+.navbar {
+    font-family: "PT Serif", serif;
+    position:sticky;
+    top:0;
+    z-index:1;
+    border-bottom: 1px solid lightgray;
+}
+
+.nav-item {
+    font-size: 1.15em;
+}
+
+.search-bar {
+    font-family: "PT Serif", serif;
+    font-size: 1.15em;
+}
+
+
+
+/* beaders */
+.headers {
+    font-family: "PT Serif", serif;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.headline {
+    font-size: 3.5em;
+    font-weight: bold;
+}
+
+.subhead {
+    font-size: 2.5em;
+    font-style:italic;
+}
+
+
+
+/* byline & publication date */
+.byline {
+    font-size: 1.5em;
+    font-family: "PT Sans", sans-serif;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.publication-date {
+    font-size: 1em;
+    padding-bottom: 15px;
+    font-family: "PT Sans", sans-serif;
+}
+
+
+
+/* page wrapper */
+.page-wrapper {
+    margin:0 auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: "PT Serif", serif;
+}
+
+
+
+/* images */
+.photo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+
+/* chapters */
+.chapter-title {
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-bottom: 15px;
+}
+
+.chapter-text {
+    font-size:1.25em;
+    font-family: "PT Sans", sans-serif;
+}
+
+
+
+/* columns */
+.col-lg-4 {
+    text-align: justify;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.column-title {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 15px;
+
+}
+
+.column-text {
+    font-size:1.25em;
+    font-family: "PT Sans", sans-serif;
+
+}
+
+
+
+/* footer */
+.footer-text {
+    text-align: center;
+    font-family: "PT Serif", serif;
+}
