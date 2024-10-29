@@ -83,8 +83,6 @@
 /* mobile navbar end */
 
 
-
-
 /* page wrapper */
 #page-wrapper {
     align-items: center;
@@ -93,9 +91,12 @@
 }
 
 /* section formatting */
-.col-lg-12 {
+.col-lg-10 {
     margin:0 auto;
-    
+}
+
+.col-lg-6 {
+    margin:0 auto;
 }
 
 .section {
