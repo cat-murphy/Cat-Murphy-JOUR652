@@ -27,63 +27,85 @@
     <!-- external CSS stylesheet -->
     <link rel="stylesheet" type="text/css" href="style.css">
 
+
 </head>
 
 <body>
 
-<!-- masthead -->
-<div class="masthead">
-    <ul class="nav justify-content-center">
-        <a class="navbar-brand">Publication Name</a>
-    </ul>
-</div>
-
 <!-- navbar -->
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar fixed-top">
     <div class="container-fluid">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#">cat magazine</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-            </ul>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Explore</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">U.S.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">World</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Business</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Lifestyle</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cooking</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Account</a>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn" type="submit">Search</button>
+                </form>
+            </div>
         </div>
     </div>
 </nav>
 
+
 <!-- page topper -->
 <div class="page-topper">
     <div class="cover-image" style="background-image: url('images/pier.jpg')"></div>
-    <!-- head & subhead -->
+    <!-- mobile masthead -->
+    <div class="mobile-masthead col-sm-4">cat magazine</div>
+    <!-- headers -->
     <div class="headers col-xxl-7">
-        <h1 class="headline display-5 fw-bold">'I gave it my best': One Father's Fraught Journey to Find His Son</h1>
+        <h1 class="headline display-5 fw-bold">‘I gave it my best’: One Father’s Fraught Journey to Find His Son</h1>
         <h3 class="subhead">Bob Garrison was determined to rescue his son from the streets. The path was more difficult than he had imagined.</h3>
     </div>
 </div>
+
 
 <!-- page-wrapper -->
 <div class="page-wrapper col-xxl-7">
     <div class="row flex-lg-row">
         <div class="col-xxl-12">
             <!-- topper photo caption -->
-            <p id="topper-caption" class="caption">San Clemente Pier (<em>Photo via <a href="https://heygirlfriend.net/2015/10/20/san-clemente-a-little-slice-of-heaven/">Hey Girlfriend!</a></em>).</p>
+            <div id="topper-caption">
+                <p class="caption">San Clemente Pier (<em>Photo via <a href="https://heygirlfriend.net/2015/10/20/san-clemente-a-little-slice-of-heaven/">Hey Girlfriend!</a></em>).</p>
+            </div>
 
             <!-- BL & date-->
             <h4 class="byline">By <a id=byline-link href="https://www.nytimes.com/by/shawn-hubler">Shawn Hubler</a></h4>
-            <h4 class="byline-desc">Shawn Hubler is based in Sacramento and covers California news, policy trends and personalities. She has been a journalist for more than four decades. Hubler met the Garrison family while reporting on California's homelessness crisis. She traveled from Seattle to San Clemente, Calif., and spent three months reporting for this article.</h4>
+            <h4 class="byline-desc">Shawn Hubler is based in Sacramento and covers California news, policy trends and personalities. She has been a journalist for more than four decades. Hubler met the Garrison family while reporting on California’s homelessness crisis. She traveled from Seattle to San Clemente, Calif., and spent three months reporting for this article.</h4>
             <h5 class="publication-date">Aug. 29, 2024</h5>
 
             <!-- first chapter -->
@@ -94,7 +116,7 @@
 
                 <p>He had spent the last two days following up on leads, scouring parks, passing out fliers. “MISSING,” they said, in block letters over photos of a 45-year-old man from Seattle, 6 feet, 6 inches tall with a beard to his chest, an ice-ax tattoo and a silver cross necklace.</p>
 
-                <p>Homeless, the fliers could have said, too, one of more than 180,000 homeless people in California. So many that if they all were to come inside, they would fill San Clemente several times over. But on this June day, Mr. Garrison, an engineer from rural Ellensburg, Wash., was not thinking about California's humanitarian crisis.</p>
+                <p>Homeless, the fliers could have said, too, one of more than 180,000 homeless people in California. So many that if they all were to come inside, they would fill San Clemente several times over. But on this June day, Mr. Garrison, an engineer from rural Ellensburg, Wash., was not thinking about California’s humanitarian crisis.</p>
 
                 <p>He was just a 70-year-old man on a pier gazing out at an ocean, trying — too late, he feared — to rescue his son.</p>
             </div>
@@ -103,9 +125,9 @@
             <h1 class="chapter-title">An Early Bond</h1>
             
             <div class="chapter-text">
-                <p>“It wasn't always like this,” Mr. Garrison said of his third child and namesake. Born in Southern California and raised in Seattle, his son, Robert Garrison, graduated from high school, had a career, supported a family.</p>
+                <p>“It wasn’t always like this,” Mr. Garrison said of his third child and namesake. Born in Southern California and raised in Seattle, his son, Robert Garrison, graduated from high school, had a career, supported a family.</p>
 
-                <p>Father and son once had been close. From the time Robert was small, Mr. Garrison said, they would camp under the stars, talking about time and space and the cosmos. Skilled outdoorsmen, they bonded over their adventures. When Robert was 19, he and his father suffered a terrifying fall while climbing on the icy south slopes of the Olympic Mountains. The family marveled as Robert, nursed by his mother, Mr. Garrison's ex-wife, recovered from serious injuries.</p>
+                <p>Father and son once had been close. From the time Robert was small, Mr. Garrison said, they would camp under the stars, talking about time and space and the cosmos. Skilled outdoorsmen, they bonded over their adventures. When Robert was 19, he and his father suffered a terrifying fall while climbing on the icy south slopes of the Olympic Mountains. The family marveled as Robert, nursed by his mother, Mr. Garrison’s ex-wife, recovered from serious injuries.</p>
 
                 <p>Burly and strong, Robert took a job building and repairing custom bicycles, graduated from community college and became a skilled carpenter, expanding on a gift for woodworking that he had developed in high school.</p>
                     
@@ -145,7 +167,7 @@
 
                 <p>Finally, in late December 2023, she suggested that he apply for disability so he could receive mental health care and housing. He stormed off and the parents gave him space, afraid of alienating him entirely.</p>
 
-                <p>In the absence of answers, they wondered if Robert's problems were their fault. Ms. DeCecco blamed the injuries he suffered in that fall from the mountain. Mr. Garrison blamed himself for letting that accident happen. Even now, the father can recite in detail how time slowed as he strained to arrest their plummet, “the individual ice granules showering up in an arc” from the pick of his ice ax. “The event has shaped us for the remainder of our lives, even unto the present,” he said.</p>
+                <p>In the absence of answers, they wondered if Robert’s problems were their fault. Ms. DeCecco blamed the injuries he suffered in that fall from the mountain. Mr. Garrison blamed himself for letting that accident happen. Even now, the father can recite in detail how time slowed as he strained to arrest their plummet, “the individual ice granules showering up in an arc” from the pick of his ice ax. “The event has shaped us for the remainder of our lives, even unto the present,” he said.</p>
                 
                 <div class="graphic">
                     <iframe title="Contextualizing the U.S. homeless population" aria-label="Range Plot" id="datawrapper-chart-X0RMI" src="https://datawrapper.dwcdn.net/X0RMI/2/" style="width: 0; min-width: 100% !important; border: none;" height="272" data-external="1"></iframe><script>!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
@@ -154,7 +176,7 @@
 
                 <p>Periodically, Robert would ask them to send small amounts of money electronically for food and emergency shelter. Then in late March, Mr. Garrison said, his son stopped answering his texts, and his calls started going straight to voice mail.</p>
                     
-                <p>Worried, and then panicked, Mr. Garrison began calling hospitals and the coroner's office. He obtained a replacement SIM card for the cellphone that he had given Robert in case of emergencies, giving him the ability to search the phone history. Scanning the calls, he found the pastor of a church where Robert had been sleeping.</p>
+                <p>Worried, and then panicked, Mr. Garrison began calling hospitals and the coroner’s office. He obtained a replacement SIM card for the cellphone that he had given Robert in case of emergencies, giving him the ability to search the phone history. Scanning the calls, he found the pastor of a church where Robert had been sleeping.</p>
             
                 <p>The pastor, Craig Mathison of Eastridge Church, told Mr. Garrison that the congregation loved Robert. But Robert had told them that he could not bear the violence and drug use in the local shelters, and that he had been born in California, had relatives there and wanted to go back.</p>
 
@@ -169,7 +191,7 @@
 <!-- photo & caption in wider container -->
 <div class="photo col-lg-12">
     <img src="images/san-clemente-beach-tents.jpg" class="d-block mx-lg-auto img-fluid" alt="Tents pitched on San Clemente Beach" loading="lazy">
-    <p class="caption col-xxl-7">Tents pitched on San Clemente Beach in California in April 2020 (<em>Photo by Julie Leopo, <a href="https://voiceofoc.org/2024/08/san-clemente-moves-to-crack-down-on-homeless-encampments/">Voice of OC</a></em>).</p>
+    <p class="caption col-xxl-7">Tents pitched on San Clemente Beach in California in April 2020 (<em>Photo via Julie Leopo, <a href="https://voiceofoc.org/2024/08/san-clemente-moves-to-crack-down-on-homeless-encampments/">Voice of OC</a></em>).</p>
 </div>  
     
 <!-- restart page-wrapper -->
@@ -177,18 +199,18 @@
     <div class="row flex-lg-row">
         <div class="col-xxl-12">
             <!-- fourth chapter -->
-            <h1 class="chapter-title">‘I Was Afraid Someone Would Kill Him'</h1>
+            <h1 class="chapter-title">‘I Was Afraid Someone Would Kill Him’</h1>
             <div class="chapter-text">
                 <p>Finding Robert would be “worse than looking for a needle in a haystack,” Mr. Garrison realized. It was May now, several months since Robert had gone to California. More than 75,000 people were homeless last year just in Los Angeles County. Mr. Garrison pulled $5,000 from his savings and hired a private investigator.</p>
 
-                <p>“They told me that most of the time, when people find out the cost of their retainer, that's the end of the discussion,” Mr. Garrison remembered. “But I'm not the father of the year. If I was, I would have taken my son in immediately, as soon as I knew he was having problems. And I did not.”</p>
+                <p>“They told me that most of the time, when people find out the cost of their retainer, that’s the end of the discussion,” Mr. Garrison remembered. “But I’m not the father of the year. If I was, I would have taken my son in immediately, as soon as I knew he was having problems. And I did not.”</p>
                 
-                <p>The Los Angeles investigator, Heidi Goldberg, said that in recent years, almost all of her searches had involved homeless people, usually because of mental health issues or drug addiction. “It doesn't always end on a high note,” she said.</p>
+                <p>The Los Angeles investigator, Heidi Goldberg, said that in recent years, almost all of her searches had involved homeless people, usually because of mental health issues or drug addiction. “It doesn’t always end on a high note,” she said.</p>
 
-                <p>“I was afraid someone would kill him,” said Robert's mother, Ms. DeCecco, who still lives in Seattle. “Robert's a teddy bear but he's big. What if someone pulled a gun on him? He knew everybody here. What if he ran into the wrong person? I couldn't sleep. I couldn't eat.”</p>
+                <p>“I was afraid someone would kill him,” said Robert’s mother, Ms. DeCecco, who still lives in Seattle. “Robert’s a teddy bear but he’s big. What if someone pulled a gun on him? He knew everybody here. What if he ran into the wrong person? I couldn’t sleep. I couldn’t eat.”</p>
         
                 <div class="graphic">
-                    <iframe title="California's homelessness crisis" aria-label="Pie Chart" id="datawrapper-chart-Aql9F" src="https://datawrapper.dwcdn.net/Aql9F/8/" style="width: 0; min-width: 100% !important; border: none;" height="512" data-external="1"></iframe><script>!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
+                    <iframe title="California’s homelessness crisis" aria-label="Pie Chart" id="datawrapper-chart-Aql9F" src="https://datawrapper.dwcdn.net/Aql9F/8/" style="width: 0; min-width: 100% !important; border: none;" height="512" data-external="1"></iframe><script>!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r=0;r<e.length;r++)if(e[r].contentWindow===a.source){var i=a.data["datawrapper-height"][t]+"px";e[r].style.height=i}}}))}();
                     </script>
                 </div>
 
@@ -200,11 +222,11 @@
             <!-- fifth chapter -->
             <h1 class="chapter-title">A Man on a Bench</h1>
             <div class="chapter-text">
-                <p>Two more weeks passed with no leads. Then on June 6, Mr. Garrison received a call from a sheriff's office more than 130 miles south of Ventura, in Orange County. A man fitting his son's description had been caught camping illegally near San Clemente, and the missing persons report had appeared when deputies ran a check.</p>
+                <p>Two more weeks passed with no leads. Then on June 6, Mr. Garrison received a call from a sheriff’s office more than 130 miles south of Ventura, in Orange County. A man fitting his son’s description had been caught camping illegally near San Clemente, and the missing persons report had appeared when deputies ran a check.</p>
 
                 <p>Mr. Garrison called his ex-wife, booked a hotel and flew to Southern California. For backup, he took their now 18-year-old grandson, William, whose custody Robert had once worked so hard to win.</p>
 
-                <p>From Saturday through Monday, they searched golf courses, train stations, canyons and beaches. City workers in San Clemente helped them print more fliers and showed them where local homeless people congregated. A homeless man on the beach said he recognized Robert's picture but did not know where he had gone.</p>
+                <p>From Saturday through Monday, they searched golf courses, train stations, canyons and beaches. City workers in San Clemente helped them print more fliers and showed them where local homeless people congregated. A homeless man on the beach said he recognized Robert’s picture but did not know where he had gone.</p>
 
                 <p>Mr. Garrison, who works full time and oversees care for his 94-year-old mother, had to fly back on Tuesday. He and his grandson drove to the pier to wait until dark to see if Robert would return to sleep underneath with a cluster of other homeless people.</p>
 
@@ -223,7 +245,7 @@
 
                 <p>“I paused,” Mr. Garrison recalled on a recent afternoon, his voice thickening at the sheer odds of that moment.</p>
 
-                <p>“And I said to my grandson, ‘Is that him?'”</p>
+                <p>“And I said to my grandson, ‘Is that him?’”</p>
             </div>
 
             <!-- sixth chapter -->
@@ -231,9 +253,9 @@
             <div class="chapter-text">
                 <p>He had come to the pier to rest while he dried out the pages of his Bible. They had become wet when an energy drink stowed in his new pack spilled. William moved in for a closer look, recognized him, called back to his grandfather.</p>
 
-                <p>“I walked over there and he had that bag on the bench, and I put it on the ground and sat down next to him,” Mr. Garrison said, holding back tears. “Put my arm around him. Pulled him tight. And I said, ‘We've been looking for you.'”</p>
+                <p>“I walked over there and he had that bag on the bench, and I put it on the ground and sat down next to him,” Mr. Garrison said, holding back tears. “Put my arm around him. Pulled him tight. And I said, ‘We’ve been looking for you.’”</p>
 
-                <p>They called Robert's mother, went for Mexican food, collapsed into sleep in Mr. Garrison's motel room. Robert agreed to return with his father to Ellensburg, Wash.</p>
+                <p>They called Robert’s mother, went for Mexican food, collapsed into sleep in Mr. Garrison’s motel room. Robert agreed to return with his father to Ellensburg, Wash.</p>
             </div>
         </div>
     </div>
@@ -250,27 +272,27 @@
     <div class="row flex-lg-row">
         <div class="col-xxl-12">
             <div class="chapter-text">
-                <p>Worried that airport security might trigger his son's paranoia, Mr. Garrison bought him a train ticket and asked a community outreach worker in San Clemente, Troy Shenker, to help Ms. Goldberg, the private investigator, watch over Robert until the departure. Vulnerable as he was, Robert was also a grown man; Mr. Garrison wanted to be respectful and let him travel back on his own.</p>
+                <p>Worried that airport security might trigger his son’s paranoia, Mr. Garrison bought him a train ticket and asked a community outreach worker in San Clemente, Troy Shenker, to help Ms. Goldberg, the private investigator, watch over Robert until the departure. Vulnerable as he was, Robert was also a grown man; Mr. Garrison wanted to be respectful and let him travel back on his own.</p>
 
                 <p>At Union Station in Los Angeles a week or so later, Ms. Goldberg said, Robert was “a gentle giant,” polite and courtly. She offered to buy him lunch, and he asked only for a package of souvenir California stickers. Mr. Garrison was so grateful that he wrote a letter of thanks to the mayor of San Clemente.</p>
 
                 <p>In Ellensburg, however, it became clear that the celebration had been premature.</p>
 
-                <p>Unable to sleep, Robert paced until dawn through his father's condo complex, alarming the neighbors. Resistant to medical advice, he skipped the doctor's appointments that Mr. Garrison made for him. After Mr. Garrison got him a hotel room, hoping to ease the tension, the manager called to say that Robert was in the parking lot clad only in shoes and a bath towel.</p>
+                <p>Unable to sleep, Robert paced until dawn through his father’s condo complex, alarming the neighbors. Resistant to medical advice, he skipped the doctor’s appointments that Mr. Garrison made for him. After Mr. Garrison got him a hotel room, hoping to ease the tension, the manager called to say that Robert was in the parking lot clad only in shoes and a bath towel.</p>
 
-                <p>Mr. Garrison came to retrieve him and found a half-empty case of beer in his son's room, a sign that substance abuse might be exacerbating Robert's problems.</p>
+                <p>Mr. Garrison came to retrieve him and found a half-empty case of beer in his son’s room, a sign that substance abuse might be exacerbating Robert’s problems.</p>
 
-                <p>“Self-medicating with alcohol was something I hadn't thought of until he was with me,” he said.</p>
+                <p>“Self-medicating with alcohol was something I hadn’t thought of until he was with me,” he said.</p>
             </div>
 
             <!-- seventh chapter -->
-            <h1 class="chapter-title">‘I'm On a Confidential Mission'</h1>
+            <h1 class="chapter-title">‘I’m On a Confidential Mission’</h1>
             <div class="chapter-text">
-                <p>Mr. Garrison gave his son a week to see a doctor and offered to go with him, but Robert refused and asked to be taken back to Seattle. “It was one of the most disheartening drives I've ever made,” Mr. Garrison said of the 107-mile trip.</p>
+                <p>Mr. Garrison gave his son a week to see a doctor and offered to go with him, but Robert refused and asked to be taken back to Seattle. “It was one of the most disheartening drives I’ve ever made,” Mr. Garrison said of the 107-mile trip.</p>
 
                 <p>Four days after his father dropped him off, Robert spoke with a reporter in a motel breakfast room near the Seattle airport, his tall frame folded into a chair, his feet clad in new sneakers. Dark sunglasses covered his eyes and a fresh hiking pack sat nearby, neatly filled with his belongings. Plastic bands imprinted with Bible verses covered his wrists.</p>
 
-                <p>“My father thinks I need treatment but there's nothing wrong with my mental health — he just doesn't believe me,” he said. “He thinks this is all cults and charismatics.”</p>
+                <p>“My father thinks I need treatment but there’s nothing wrong with my mental health — he just doesn’t believe me,” he said. “He thinks this is all cults and charismatics.”</p>
 
                 <div class="graphic">
                     <div class="flourish-embed flourish-map" data-src="visualisation/20231206"><script src="https://public.flourish.studio/resources/embed.js"></script><noscript><img src="https://public.flourish.studio/visualisation/20231206/thumbnail"  alt="map visualization"></noscript></div>
@@ -278,7 +300,7 @@
 
                 <p>He said he was changing his name to “Apollyon DeCecco” and shared his life story, largely echoing his parents. The climbing accident. The aneurysm. Then the story diverged, and he described the moment in 2021 when “the light touched me and healed me and changed me” during what he believes was a cardiac arrest.</p>
 
-                <p>“I was being trained by the spirits, the Word,” he said. “I was gaining the knowledge rapidly. Fast. Cutting through the various Scriptures. I couldn't stop.”</p>
+                <p>“I was being trained by the spirits, the Word,” he said. “I was gaining the knowledge rapidly. Fast. Cutting through the various Scriptures. I couldn’t stop.”</p>
 
                 <p>The ticket to Los Angeles had cost $253, he said. God had “telepathically” sent him. When he stepped into the California night, “it felt like home — just the warmth, the palm trees.” At a convenience store, he bought food and wine and slept outside, sitting up.</p>
 
@@ -286,17 +308,16 @@
 
                 <p>“I am on a confidential mission,” he said in a deep baritone, his voice urgent. “A mission that was set down amongst my heart from Jesu Christ, to spread the gospel amongst the people in Southern California.”</p>
 
+                <div class="pull-quote col-xxl-12 mx-auto lead">
+                    <div class="col-xxl-8">
+                        <blockquote class="quote">“Sometimes your best <div class="quote-emphasis">just isn’t good enough</div>.”</blockquote>
+                        <blockquote class="quote-attribution">— Bob Garrison</blockquote>
+                    </div>
+                </div>
+
                 <p>When his father found him on the pier, he said, his heart sank: His assignment was “compromised” because his location was now known.</p>
 
-
                 <p>He had not been afraid or alone, he said, citing Scripture, “for every hair on your head is accounted for by the Lord.”</p>
-            </div>
-
-            <div class="pull-quote col-xxl-12 mx-auto lead">
-                <div class="col-xxl-8">
-                    <blockquote class="quote">“Sometimes your best <div class="quote-emphasis">just isn't good enough</div>.”</blockquote>
-                    <blockquote class="quote-attribution">— Bob Garrison</blockquote>
-                </div>
             </div>
 
             <!-- eighth chapter -->
@@ -310,7 +331,7 @@
 
                 <p>Now that seemed naïve, and he had no answers about what, if anything, to do next.</p>
 
-                <p>“I gave it my best,” the father wrote in an email. “Sometimes your best just isn't good enough.”</p>
+                <p>“I gave it my best,” the father wrote in an email. “Sometimes your best just isn’t good enough.”</p>
             </div>
         </div>
     </div>
@@ -318,50 +339,27 @@
     <!-- related stories meny -->
     <div class="related-items col-lg-12">
         <div class="row g-0 bg-black position-relative">
-           <h2 class="card-top">more from cat magazine</h2>
+           <h2 class="card-top">Behind the Scenes</h2>
         </div>
 
         <div class="row g-0 bg-black position-relative">
           <div class="col-md-6 mb-md-0 p-md-4">
-            <img src="https://hips.hearstapps.com/hmg-prod/images/elm060123frindie-004-645bf0510ec8d.jpg?resize=980:*" class="w-100" alt="A look from Celine's show at the Wiltern..">
+            <img src="https://static01.nyt.com/images/2024/09/02/multimedia/02a2_INSIDER-hubler-lfpv/02a2_INSIDER-hubler-lfpv-superJumbo.jpg?quality=75&auto=webp" class="w-100" alt="Bob Garrison holding a photo of him and his son, Robert.">
           </div>
-          <div class="col-md-6 p-4 ps-md-0">
-            <h3 class="mt-0">Get Ready for Rock Girl Summer</h3>
-            <h5 class="card-desc">A new breed of musical style melds aughts nostalgia with 2020s DIY.</h5>
-            <h5 class="card-byline">By Katy Kelleher</h5>
-            <a href="https://www.elle.com/fashion/a43853858/rock-style-trend-2023/" class="stretched-link"></a>
-          </div>
-        </div>
-
-        <div class="row g-0 bg-black position-relative">
-          <div class="col-md-6 mb-md-0 p-md-4">
-            <img src="https://hips.hearstapps.com/hmg-prod/images/elm100124fobtravel-003-3-66ec3f3ee0bed.jpg?resize=980:*" class="w-100" alt="A view from Shanghai, China.">
-          </div>
-          <div class="col-md-6 p-4 ps-md-0">
-            <h3 class="mt-0">How Shanghai Became the Next Fashion Capital</h3>
-            <h5 class="card-desc">An incredible local design scene and the presence of international brands have made the city a major cultural destination.</h5>
-            <h5 class="card-byline">By Todd Plummer</h5>
-            <a href="https://www.elle.com/culture/travel-food/a62244202/shanghai-fashion-capital-destination-2024/" class="stretched-link"></a>
+          <div class="related-text col-md-6 p-4 ps-md-0">
+            <h3 class="mt-0">A Father Found His Son, but a Happy Ending Remains Elusive</h3>
+            <h5 class="card-desc">Shawn Hubler, who covers California for The Times, shares how she balances objectivity with empathy while reporting on homelessness.</h5>
+            <h5 class="card-byline">By John Otis</h5>
+            <a href="https://www.nytimes.com/2024/08/29/insider/a-father-found-his-son-but-a-happy-ending-remains-elusive.html" class="stretched-link"></a>
           </div>
         </div>
+    </div>
 
-        <div class="row g-0 bg-black position-relative">
-            <div class="col-md-6 mb-md-0 p-md-4">
-              <img src="https://hips.hearstapps.com/hmg-prod/images/project-2025-gettyimages-2163362272-66fb084841e84.jpg?resize=980:*" class="w-100" alt="A demonstrator holding up an anti-Project 2025 sign.">
-            </div>
-            <div class="col-md-6 p-4 ps-md-0">
-              <h3 class="mt-0">What to Know About Project 2025, the Controversial Conservative Playbook</h3>
-              <h5 class="card-desc">The recommendations for Trump's potential second presidency have become major talking points for both parties.</h5>
-              <h5 class="card-byline">By Adrienne Gaffney</h5>
-              <a href="https://www.elle.com/culture/career-politics/a62415375/project-2025-explained/" class="stretched-link"></a>
-            </div>
-          </div>
-      </div>
 </div>
 
 
 <footer class="footer mt-auto py-5">
-    <div class="footer-text">Footer Text</div>
+    <div class="footer-text col-sm-4">cat magazine</div>
 </footer>
 
 </body>
