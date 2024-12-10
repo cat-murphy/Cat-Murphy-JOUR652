@@ -150,6 +150,7 @@ body {
 
 .col-sm-4 {
     margin:0 auto;
+    text-align: center;
 }
 
 
@@ -416,15 +417,15 @@ footer {
 
 
 
-/* for screens over 750px */
-@media only screen and (min-width: 750px) {
+/* for screens over 550px */
+@media only screen and (min-width: 550px) {
     .mobile-masthead {
         display: none;
     }
 }
 
-/* for screens up to 750px */
-@media only screen and (max-width: 750px) {
+/* for screens up to 550px */
+@media only screen and (max-width: 550px) {
     .navbar-brand {
         display:none;
     }
